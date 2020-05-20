@@ -1,12 +1,10 @@
 // ===============================================================================
 // LOAD DATA
 // We are linking our routes to a series of "data" sources.
-// These data sources hold arrays of information on table-data, waitinglist, etc.
+// These data sources hold arrays of information for the notes stored in the database.
 // ===============================================================================
 
-var tableData = require("../database/db");
-
-
+var notesData = require("../database/db");
 
 // ===============================================================================
 // ROUTING
@@ -19,8 +17,8 @@ module.exports = function(app) {
   // (ex: localhost:PORT/api/admin... they are shown a JSON of the data in the table)
   // ---------------------------------------------------------------------------
 
-  app.get("/api/", function(req, res) {
-    res.json(tableData);
+  app.get("/api/notes", function(req, res) {
+    res.json(notesData);
   });
 
   // API POST Requests
@@ -31,7 +29,7 @@ module.exports = function(app) {
   // Then the server saves the data to the tableData array)
   // ---------------------------------------------------------------------------
 
-  // Create New Characters - takes in JSON input
+  // Create New Notes - takes in JSON input
 app.post("/api/notes", function(req, res) {
   // req.body hosts is equal to the JSON post sent from the user
   // This works because of our body parsing middleware
@@ -43,7 +41,7 @@ app.post("/api/notes", function(req, res) {
 
   console.log(newNote);
 
-  dbjson.push(newNote);
+  db.push(newNote);
 
   res.json(newNote);
 });

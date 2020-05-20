@@ -22,6 +22,9 @@ var PORT = process.env.PORT || 9500;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+//static files (CSS)
+app.use(express.static(__dirname + '/public'));
+
 // ================================================================================
 // ROUTER
 // The below points our server to a series of "route" files.

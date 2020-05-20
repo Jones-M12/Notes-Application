@@ -41,9 +41,14 @@ app.post("/api/notes", function(req, res) {
 
   console.log(newNote);
 
-  db.push(newNote);
+  notesData.push(newNote);
 
   res.json(newNote);
 });
+
+app.delete("api/notes", function(req, res){
+
+
+})
   
 };

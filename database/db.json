@@ -1,1 +1,5 @@
- [{"title":"Test Title","text":"Test text"}]
+var fs = require("fs");
+ 
+ 
+ 
+ [{"id":"(i +1)" ,"title":"Test Title","text":"Test text"}]

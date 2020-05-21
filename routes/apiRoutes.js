@@ -40,14 +40,44 @@ app.post("/api/notes", function(req, res) {
   newNote.title = newNote.text.replace(/\s+/g, "").toLowerCase();
 
   console.log(newNote);
+    var title= newNote.title
+    var text =newNote.text
+  var idNote= {title, text, id: 1}
 
   notesData.push(newNote);
 
   res.json(newNote);
 });
 
-app.delete("api/notes", function(req, res){
+//When a element inside of a note is clicked
+app.delete("/api/notes/1", function(req, res){
+    console.log(res);
+    // deleteNote(req.params.id)
+    // .then(notes => res.json({ok:true}))
+    // .catch(err => res.status(500).json(err));
+    
 
+
+
+//Second attempt return undefined in the terminal 
+//     var delNote = req.params.id;
+
+//   console.log(delNote);
+
+//   for (var i = 0; i < notesData.length; i++) {
+//     if (delNote === notesData[i].title) {
+//       return res.json(delNote[i]);
+//     }
+//   }
+
+//   return res.json(false); 
+
+
+
+
+//handleNoteDelete();
+
+    
 
 })
   

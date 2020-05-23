@@ -44,8 +44,8 @@ module.exports = function (app) {
 
         var title = newNote.title
         var text = newNote.text
-        // var idGen = Math.floor(Math.random() * 1000) + 1;
-        var idGen = Math.floor(Math.random() * 1000) + 1;
+        // .toString()- turns the intergar into a strong so it matches the setup in our db.json file & can be read
+        var idGen =(Math.floor(Math.random() * 1000) + 1).toString()
         var idNote = { title, text, id: idGen }
 
 
@@ -58,56 +58,29 @@ module.exports = function (app) {
         })
 
 
-        res.json(idNote);
-       // res.json(notesData);
+        //res.json(idNote);
+        res.json(notesData);
     });
-    /* ANother attempt to delete note */
-    // router.delete('/notes/delete/:id', notesData.delete);
-
-    // module.exports = router;
-
+    
     /* Attempt to delete note */
     app.delete("/api/notes/:id", function (req, res) {
         
 
+        console.log(notesData)
 
-    /*attempt within app.delete */
-        // var delNote = req.params.id
+        //.filter used in replace of a for loop to target the Note by the ID and delete it
+            notesData=notesData.filter(function(note){
+                return note.id !== req.params.id;
 
-        // notesData.remove({
-        //     _delNote: delNote
-        // }, function(err){
-        //     if (err) {
-        //         console.log(err)
-        //     }
-        //     else {
-        //         res.send("Removed");
-        //     }
-
-        // })
-
-
-/* Attempt within app.delete*/
-            // notesData=notesData.filter(function(note){
-            //     return note.id !== delNote;
-
-            //     //console.log("Yes, i deleted you!")
-            // });
-
-            // res.json(notesData);
+                
+            });
+            console.log(notesData)
+            console.log(req.params.id)
+            res.json(notesData);
             console.log("Yes, i deleted you!")
         });
 
-/* Want to use this */
-            // app.delete("api/notes/", function(req, res) {
-            //     store
-            //         var delNote= req.params.id
-            //       .removeNote(delNote)
-            //       .then(note => res.json(note))
-            //       .catch(err => res.status(500).json(err));
-            //   });
 
-            // console.log("Yes, i deleted you!")
 
 
 

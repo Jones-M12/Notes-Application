@@ -3,7 +3,7 @@
 // We need to include the path package to get the correct file path for our html
 // ===============================================================================
 
-var app = require("express");
+
 var path = require("path");
 
 

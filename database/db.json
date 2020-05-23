@@ -1,25 +1,7 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text"
-  },
-  {
-    "title": "trying again",
-    "text": "please help",
-    "id": 883
-  },
-  {
-    "title": "another notes",
-    "text": "try again",
-    "id": 624
-  },
-  {
-    "title": "new note",
-    "text": "blah",
-    "id": 415
-  },
-  {
-    "title": "trying to delete",
-    "text": "can't delete"
+    "title": "Welcome!",
+    "text": "hahah, I have done it!",
+    "id": "810"
   }
 ]

@@ -1,46 +1,34 @@
-# Unit 11 Express Homework: Note Taker
+# Notes Application
 
-## Description
+## Overview
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+This application was designed to allow a user to utilize a online notes application for writing, saving and deleting notes. 
 
-* The application frontend has already been created, it's your job to build the backend and connect the two.
+It allows a user to move away from hand written notes that can be lost or easily damages.
 
-* The following HTML routes should be created:
-
-  * GET `/notes` - Should return the `notes.html` file.
-
-  * GET `*` - Should return the `index.html` file
-
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
-
-* The following API routes should be created:
-
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
-
-  * POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
-
-  * DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+A user can better origanze ideas without forgetting or being unable to recall.
 
 ## User Story
 
-AS A user, I want to be able to write and save notes
+As a USERT
 
-I WANT to be able to delete notes I've written before
+I WANT to be able to create notes, save them, and delete notes when they are no longer needed.
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+SO THAT I can organize task and keep track of tasks I need to complete.
 
-## Business Context
+## Development 
 
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+I have designed the backend of this application using Express methods, designing it to take persistent notes that allow the use recall information whenever neeeded.
 
-## Acceptance Criteria
+I learned how to connect the frontend with the backend building routes and the server. I have gained more knowledge and increased my understanding of how the database, the server, and the client comer together to build dynamic applications.
 
-Application should allow users to create and save notes.
+## Future Development: User Story
 
-Application should allow users to view previously saved notes.
+As a USER.
 
-Application should allow users to delete previously saved notes.
+I WANT to be able to edit preexisting notes.
+
+SO THAT I can organize and keep track of uncomepleted task.
 
 - - -
 

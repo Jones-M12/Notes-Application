@@ -1,6 +1,6 @@
 # Notes Application
 
-[![Generic badge](https://img.shields.io/badge/<VERSION>-<1.1.0>-<PINK>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/VERSION-1.1.0-PINK.svg)](https://shields.io/)
 
 ## Overview
 

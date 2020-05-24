@@ -4,7 +4,6 @@
 
 [Repo: Notes Application](https://jones-m12.github.io/Notes-Application/)
 
-https://jones-m12.github.io/Notes-Application/
 
 ## Overview
 

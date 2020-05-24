@@ -2,6 +2,10 @@
 
 [![Generic badge](https://img.shields.io/badge/VERSION-1.1.0-PINK.svg)](https://shields.io/)
 
+
+
+https://jones-m12.github.io/Notes-Application/
+
 ## Overview
 
 This application was designed to allow a user to utilize an online notes application for writing, saving and deleting notes. 
@@ -34,9 +38,9 @@ SO THAT I can organize and keep track of uncomepleted task.
 
 ## Contact Information
 
-* Github: https://github.com/Jones-M12
+* Github: [Jones-M12](https://github.com/Jones-M12) 
 
-* Email: malesharj@gmail.com
+* Email: malesharj@gmail.com 
 
 * LindedIn: https://www.linkedin.com/in/m-jones89/
 

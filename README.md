@@ -42,7 +42,7 @@ SO THAT I can organize and keep track of uncomepleted task.
 
 * Email: malesharj@gmail.com 
 
-* LindedIn: https://www.linkedin.com/in/m-jones89/
+* LindedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
 
 
 

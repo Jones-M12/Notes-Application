@@ -4,25 +4,25 @@
 
 ## Overview
 
-This application was designed to allow a user to utilize a online notes application for writing, saving and deleting notes. 
+This application was designed to allow a user to utilize an online notes application for writing, saving and deleting notes. 
 
-It allows a user to move away from hand written notes that can be lost or easily damages.
+It allows a user to move away from hand written notes that can be lost or easily damaged.
 
-A user can better origanze ideas without forgetting or being unable to recall.
+A user can better organize ideas without forgetting or being unable to recall.
 
 ## User Story
 
-As a USERT
+As a USER.
 
 I WANT to be able to create notes, save them, and delete notes when they are no longer needed.
 
-SO THAT I can organize task and keep track of tasks I need to complete.
+SO THAT I can organize keep track of the progress for each task.
 
 ## Development 
 
-I have designed the backend of this application using Express methods, designing it to take persistent notes that allow the use recall information whenever neeeded.
+I have designed the backend of this application using Express methods, designing it to take persistent notes that allow the user to recall information whenever neeeded.
 
-I learned how to connect the frontend with the backend building routes and the server. I have gained more knowledge and increased my understanding of how the database, the server, and the client comer together to build dynamic applications.
+I learned how to connect the frontend with the backend building routes and the server. I have gained more knowledge and increased my understanding of how the database, the server, and the client come together to build dynamic applications.
 
 ## Future Development: User Story
 

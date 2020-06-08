@@ -21,7 +21,7 @@ As a USER.
 
 I WANT to be able to create notes, save them, and delete notes when they are no longer needed.
 
-SO THAT I can organize keep track of the progress for each task.
+SO THAT I can organize and keep track of the progress for each task.
 
 ## Development 
 

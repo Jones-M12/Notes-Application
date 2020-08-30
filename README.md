@@ -39,9 +39,9 @@ SO THAT I can organize and keep track of uncomepleted task.
 
 The following image demonstrates the application functionality:
 
-![Home](..public/assets/images/notesapp.png)
+![Home](./public/assets/images/notesapp.png)
 
-![Get Started](..public/assets/images/notes.PNG)
+![Get Started](./public/assets/images/notes.PNG)
 
 ## Contact Information
 

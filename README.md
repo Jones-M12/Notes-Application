@@ -37,7 +37,7 @@ I WANT to be able to edit preexisting notes.
 
 SO THAT I can organize and keep track of uncomepleted task.
 
-The following image demonstrates the application functionality:
+## The following image demonstrates the application functionality:
 
 ![Home](./public/assets/images/notesapp.png)
 

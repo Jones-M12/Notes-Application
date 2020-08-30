@@ -37,6 +37,12 @@ I WANT to be able to edit preexisting notes.
 
 SO THAT I can organize and keep track of uncomepleted task.
 
+The following image demonstrates the application functionality:
+
+![Home](../assets/notesapp.png)
+
+![Get Started](../assets/notes.PNG)
+
 ## Contact Information
 
 * Github: [Jones-M12](https://github.com/Jones-M12) 

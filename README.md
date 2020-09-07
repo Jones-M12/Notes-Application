@@ -39,9 +39,24 @@ SO THAT I can organize and keep track of uncompleted task.
 
 ## The following image demonstrates the application functionality:
 
+* Home Screen
+
 ![Home](./public/assets/images/notesapp.png)
 
-![Get Started](./public/assets/images/notes.PNG)
+* Click Get Started from the Home Screen
+
+* Type input in the Note title field
+
+* Type input in Note Text field
+
+* Click Save in the upper right corner
+
+* Click red trash can to delete a note
+
+* If you select a note, the comments will appear to the right. Click Create leave note and start a new one.
+
+
+![Get Started](./public/assets/images/NoteTaker.gif)
 
 ## Contact Information
 
